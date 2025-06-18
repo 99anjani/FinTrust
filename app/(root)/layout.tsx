@@ -19,8 +19,8 @@ export default function RootLayout({
                         <MobileNav user={loggedIn}/>
                     </div>
                 </div>
-            </div>
-            {children}
+                {children}
+            </div>  
         </main>
     );
 }
